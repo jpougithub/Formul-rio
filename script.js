@@ -6,6 +6,7 @@ document= addEventListener("DOMContentLoaded", function(){
     const nameError = document.getElementById ("name-error");
     const emailError = document.getElementById ("email-error");
     const messageError = document.getElementById ("message-error");
+    debugger
 
     contactFrom.addEventListener("submit", function(event) {
         let isValid = true;
